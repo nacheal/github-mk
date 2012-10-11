@@ -214,3 +214,86 @@ height:60px;
   color:#000000;
   font-family:Tahoma
 }
+
+/*****morecontent***/
+#moreleft{
+  padding-top:50px;
+  padding-left:40px;
+  width:660px;
+  float:left;
+}
+#moreright{
+  padding-top:50px;
+  width:400px;
+  float:right;
+
+}
+
+#managetrv{
+height:250px;
+margin-top:40px;
+}
+#morecontact{
+height:580px;
+text-align: center;
+
+      border: 3px solid #d0c4c4;
+    -moz-border-radius: 15px; 
+    -webkit-border-radius: 15px;
+    border-radius:15px;
+}
+
+.morelist{
+  height:80px;
+  padding-left:60px;
+  width:240px;
+  float:left;
+  margin-left:20px;
+}
+#moreleft h4{
+  margin-left:60px;
+}
+
+#step{
+  margin-top:20px;
+  margin-left:0px;
+}
+#moreright img{
+  margin-top:20px;
+  margin-left:50px;
+}
+
+.mobile{
+  background: url(./img/mobile.png) no-repeat;
+}
+.trips{
+  background: url(./img/trips.png) no-repeat;
+}
+
+.alerts{
+  background: url(./img/alerts.png) no-repeat;
+}
+.account{
+  background: url(./img/account.png) no-repeat;
+}
+.airlines{
+  background: url(./img/airlines.png) no-repeat;
+}
+.flights{
+  background: url(./img/flights.png) no-repeat;
+}
+.vacations{
+  background: url(./img/vacations.png) no-repeat;
+}
+.explore{
+  background: url(./img/explore.png) no-repeat;
+}
+.fare{
+  background: url(./img/fare.png) no-repeat;
+}
+.fees{
+  background: url(./img/fees.png) no-repeat;
+}
+.cruises{
+  background: url(./img/cruises.png) no-repeat;
+}
