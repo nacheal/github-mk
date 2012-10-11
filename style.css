@@ -1,0 +1,216 @@
+/*
+Theme Name: Vbecomputing Hotel
+Theme URI: http://vbecomputing.com/
+Description: Vbecomputing Hotel.
+Author: Michael Johndok
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: Blue
+Text Domain: Vbecomputing
+*/
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+/*******layout********/
+body{
+background:url(./img/background.png);
+font-family:Arial;
+}
+
+.container_mk{
+  width:960px;
+  margin:0 auto;
+}
+
+/******header********/
+#header {
+height: 140px;
+background-color: #FB5E3D;
+border-bottom: 1px solid white;
+background-image: url(./img/headermeunbg.png);
+background-repeat: no-repeat;
+}
+
+#logo{
+  height:140px;
+}
+#logo img{
+left:150px;
+position: absolute;
+}
+#logo p{
+left:160px;
+top:100px;
+position: absolute;
+color:#fff;
+font-weight:bold;
+}
+
+#header_right{
+  width:750px;
+  height:60px;
+  left:450px;
+  position: absolute;
+}
+
+#header_right #header_menu ul{
+  margin-top:15px;
+  list-style:none;
+
+}
+
+#header_right #header_menu li{
+  width:80px;
+  float:left;
+}
+
+#header_right #header_menu li a{
+font-family:Arial;
+color:#fff;
+}
+
+#header_social{
+right:0px;
+top:70px;
+position: absolute;
+}
+/********nav*********/
+#nav{
+  height:59px;
+  background:url(./img/nav.png);
+}
+
+#nav .menu{
+  left:120px;
+  position: absolute;
+}
+
+#nav ul{
+  margin-top:15px;
+  list-style:none;
+}
+
+#nav li{
+  float:left;
+  margin:0 15px;
+}
+
+#nav li a{
+font-family:Arial;
+color:#fff;
+}
+/*****explain********/
+#explain{
+  height:125px;
+  text-align:center;
+}
+#explain h2{
+font-weight ：blod;
+}
+/********content****/
+#middle_content{
+  height:900px;
+  background:url(./img/middlebg.png) no-repeat;
+  width:1120px;
+  margin:0 auto;
+}
+#middle_content_left{
+  padding-top:50px;
+  width:560px;
+  float:left;
+}
+
+#middle_content_right{
+  padding-top:50px;
+  width:560px;
+  float:right;
+}
+
+.form_mk{
+  width:515px;
+  height:347px;
+  margin-left:36px;
+  margin-top:20px;
+}
+
+.form_mk{
+/*    border: 3px solid #d0c4c4;
+    -moz-border-radius: 15px; 
+    -webkit-border-radius: 15px;
+    border-radius:15px;*/
+
+}
+
+.why{
+width:560px;
+height:450px;
+padding-left:60px;
+}
+
+.bridge {
+  width:515px;
+  height:347px;
+  margin-top:20px;
+  padding-left:15px;
+}
+
+.diandian{
+  width:515px;
+  height:78px;
+  margin-top:20px;
+}
+
+.hipmunk{
+  width:515px;
+  height:350px;
+  margin-top:20px;
+  padding-left:37px;
+}
+
+.dotted{
+  border-bottom:1px dashed black;
+}
+.list{
+width:400px;
+height:70px;
+padding-left:70px;
+padding-top:3px;
+}
+
+.one{
+background-image: url(./img/one.png);
+background-repeat: no-repeat;
+}
+.good{
+background-image: url(./img/good.png);
+background-repeat: no-repeat;
+}
+.money{
+background-image: url(./img/money.png);
+background-repeat: no-repeat;
+}
+.earth{
+background-image: url(./img/earth.png);
+background-repeat: no-repeat;
+}
+.best{
+background-image: url(./img/best.png);
+background-repeat: no-repeat;
+}
+
+/********footer******/
+#footer{
+text-align:center;
+height:60px;
+}
+
+#footer p.link{
+  color:#764240;
+  font-family:Arial
+}
+
+#footer p.copyright{
+  color:#000000;
+  font-family:Tahoma
+}

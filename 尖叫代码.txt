@@ -1,0 +1,14 @@
+.filters .faux_dd ul:before {
+    -moz-transform: rotate(45deg);
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C3C3C3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    content: " ";
+    height: 10px;
+    left: 50%;
+    margin-left: -6px;
+    position: absolute;
+    top: -5px;
+    width: 10px;
+    z-index: 10;
+}
