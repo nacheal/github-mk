@@ -115,6 +115,14 @@ font-weight ：blod;
   width:1120px;
   margin:0 auto;
 }
+
+#trip_middle_content{
+  height:900px;
+  background:url(./img/tripmiddlelarge.png) no-repeat;
+  width:1120px;
+  margin:0 auto;
+}
+
 #middle_content_left{
   padding-top:50px;
   width:560px;
@@ -237,10 +245,10 @@ margin-top:40px;
 height:580px;
 text-align: center;
 
-      border: 3px solid #d0c4c4;
-    -moz-border-radius: 15px; 
-    -webkit-border-radius: 15px;
-    border-radius:15px;
+border: 3px solid #d0c4c4;
+-moz-border-radius: 15px; 
+-webkit-border-radius: 15px;
+border-radius:15px;
 }
 
 .morelist{
@@ -296,4 +304,90 @@ text-align: center;
 }
 .cruises{
   background: url(./img/cruises.png) no-repeat;
+}
+
+/*********my trip*************/
+#trip_top{
+height: 90px;
+width:1084px;
+background: url(./img/tripmiddletop.png);
+margin-top:11px;
+margin-left:8px;
+
+}
+#trip_desc{
+height: 70px;
+
+border: 3px solid #d0c4c4;
+-moz-border-radius: 15px; 
+-webkit-border-radius: 15px;
+border-radius:15px;
+}
+#trip_content{
+height: 460px;
+padding-left:30px;
+border: 3px solid #d0c4c4;
+-moz-border-radius: 15px; 
+-webkit-border-radius: 15px;
+border-radius:15px;
+}
+#trip_content_left{
+width:670px;
+height:460px;
+float:left;
+border: 3px solid #d0c4c4;
+-moz-border-radius: 15px; 
+-webkit-border-radius: 15px;
+border-radius:15px;
+}
+#trip_content_right{
+width:400px;
+height:460px;
+float:left;
+
+  border: 3px solid #d0c4c4;
+-moz-border-radius: 15px; 
+-webkit-border-radius: 15px;
+border-radius:15px;
+}
+
+.trip_list{
+height: 220px;
+width: 310px;
+float:left;
+
+  border: 3px solid #d0c4c4;
+-moz-border-radius: 15px; 
+-webkit-border-radius: 15px;
+border-radius:15px;
+}
+
+.trip_desc{
+  width: 266px;
+  height: 66px;
+  background: url(./img/jianbg.png) no-repeat;
+}
+.trip_desc strong{
+  margin-top:70px;
+  margin-left:30px;
+}
+
+#into{
+  height:290px;
+  width: 340px;
+
+  border: 3px solid #d0c4c4;
+-moz-border-radius: 15px; 
+-webkit-border-radius: 15px;
+border-radius:15px;
+}
+#signin{
+  height: 140px;
+  width: 340px;
+
+  border: 3px solid #d0c4c4;
+-moz-border-radius: 15px; 
+-webkit-border-radius: 15px;
+border-radius:15px;
+
 }

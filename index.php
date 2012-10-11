@@ -62,72 +62,51 @@
           <p>We’ve hand selected hotels that are consistently rated the best</p>
     </div><!-- end explain -->
 
-    <div id = "middle_content" class="row">
-     <div id = "moreleft" class="">
-          <div id="step">
-            <img src="<?php bloginfo(stylesheet_directory); ?>/img/step.png">
-          </div><!-- end step -->
-          <h4>Manage Your Travel</h2>
-          <div id="managetrv">
-              <div class="morelist mobile">
-                <strong>Free Mobile App</strong>
-                <p> Free Mobile App iPhone Android iPad  Windows More </p>
-              </div>
-              <div class="morelist trips">
-                <strong>My Trips</strong>
-                <p>Manage, sync & share your itinerary </p>
-              </div>
-              <div class="morelist alerts">
-                <strong>Price Alerts</strong>
-                <p>Get flight/hotel prices by email</p>
-              </div>
-              <div class="morelist account">
-                <strong>Account</strong>
-                <p>Login, bookings, travel preferences, history </p>
-              </div>
-              <div class="morelist airlines">
-                <strong>Airlines</strong>
-                <p>Airline phone numbers</p>
-              </div>
-          </div><!-- end managetrv -->
-          <h4>Find Travel</h2>
-          <div id="managetrv">
-            <div class="morelist vacations">
-              <strong>Vacations</strong>
-                <p>Find discount vacations </p>
+    <div id = "trip_middle_content" class="row">
+      <div id="trip_top">
+        <h3>My Trips - a free trip planner. Your travel plans on one page. </h3>
+      </div><!-- end trip_top -->
+      <div id="trip_desc">
+        <h4>Made a booking on Perie Look it up by confirmation number. </h4>
+        <p>Getting started with My Trips  – forward your booking confirmat</p>
+      </div><!-- end trip_desc -->
+      <div id="trip_content">
+        <div id="trip_content_left">
+          <div class="trip_list">
+            <img src="<?php bloginfo(stylesheet_directory); ?>/img/emailbg.png">
+            <div class="trip_desc">
+              <strong>Forward booking receipt emails</strong>
             </div>
-            <div class="morelist explore">
-              <strong>Explore </strong>
-                <p>Where you can go for how much </p>
+          </div>
+          <div class="trip_list">
+            <img src="<?php bloginfo(stylesheet_directory); ?>/img/webpagebg.png">
+            <div class="trip_desc">
+              <strong>Your trip planner on a web page</strong>
             </div>
-            <div class="morelist flights">
-              <strong>Direct Flights</strong>
-                <p>Schedule of nonstop flights </p>
+          </div>
+          <div class="trip_list">
+            <img src="<?php bloginfo(stylesheet_directory); ?>/img/appflightbg.png">
+            <div class="trip_desc">
+              <strong>Get flight status by email or SMS</strong>
             </div>
-            <div class="morelist fare">
-              <strong>Low Fare Tips</strong>
-                <p>Guide to getting the best airfare prices</p>
+          </div>
+          <div class="trip_list">
+            <img src="<?php bloginfo(stylesheet_directory); ?>/img/appemailbg.png">
+            <div class="trip_desc">
+              <strong>Get flight status by email or SMS copy</strong>
             </div>
-            <div class="morelist fees">
-              <strong>Airline Fees </strong>
-                <p>Baggage and other airline fees </p>
-            </div>
-            <div class="morelist cruises">
-              <strong>Cruises </strong>
-                <p>Find discount cruise deals </p>
-            </div>
-
-          </div><!-- end managetrv -->
-     </div><!-- end moreleft -->
-      <div id = "moreright" class="">
-          <img src="<?php bloginfo(stylesheet_directory); ?>/img/contact.png">
-          <div id="morecontact">
-              <h4> Please Give us your Feedback</h3>
-          </div><!-- end morecontact -->
-     </div><!-- end moreright -->
-
-
-    </div><!-- end middle_content -->
+          </div>
+        </div><!-- end trip_content_left -->
+        <div id="trip_content_right">
+          <div id="into">
+            into
+          </div><!-- end into -->
+          <div id="signin">
+            signin
+          </div><!-- end into -->
+        </div><!-- end trip_content_right -->
+      </div><!-- end trip_content -->
+    </div><!-- end trip_middle_content -->
 
     <div id = "footer" class="row">
       <p class = "link">Mini | Privacy Policy | Terms of condition </p>  
