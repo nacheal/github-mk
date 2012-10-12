@@ -441,4 +441,45 @@ border-radius:15px;
   margin-left:20px;
 }
 
-/******end ride page *****/
+/******end ride page ***/
+
+/****** checkout ********/
+#check_middle_content{
+  background: url(./img/checkoutbg.png) no-repeat;
+  height:1411px;
+  width:1120px;
+  margin:0 auto;
+  overflow: hidden;
+}
+#checkleft{
+  width:720px;
+  float: left;
+}
+#checkright{
+  width:340px;
+  float: right;
+
+}
+.limeline{
+  margin-left:20px;
+  width:711px;
+  height:9px;
+  float:left;
+  background: url(./img/limeline.png);
+}
+#checkoutsearchform{
+  margin-top:20px;
+  margin-left:20px;
+}
+#sort{
+  margin-top:20px;
+  margin-left:20px;
+}
+.checklist{
+  margin-left:20px;
+  margin-bottom: 10px;
+}
+#pagenav{
+  margin-left:200px;
+}
+/*******end checkout *****/
