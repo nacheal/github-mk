@@ -391,3 +391,54 @@ border-radius:15px;
 border-radius:15px;
 
 }
+
+/*******ride page ********/
+#ride_middle_content{
+  background: url(./img/ridebg.png) no-repeat;
+  height:640px;
+  width:1120px;
+  margin:0 auto;
+  overflow: hidden;
+}
+
+#ridestep{
+  width:590px;
+  height:55px;
+  float: left;
+  margin-top:40px;
+  margin-left: 20px;
+}
+
+#call{
+  width:195px;
+  height:65px;
+  float: right;
+  margin-top:40px;
+  margin-right: 40px;
+}
+#ridemiddle{
+  float:left;
+  width:1120px;
+  overflow: hidden;
+}
+#tranform{
+  height:360px;
+  width: 585px;
+  float:left;
+  margin-left:20px;
+}
+#map{
+  height:370px;
+  width: 455px;
+  margin-right: 40px;
+  float:right;
+}
+
+#makesure{
+  width: 1020px;
+  height:100px;
+  float:left;
+  margin-left:20px;
+}
+
+/******end ride page *****/

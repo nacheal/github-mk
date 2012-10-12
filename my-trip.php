@@ -62,24 +62,50 @@
           <p>We’ve hand selected hotels that are consistently rated the best</p>
     </div><!-- end explain -->
 
-    <div id = "ride_middle_content" class="row">
-      <div id="ridestep">
-        <img src="<?php bloginfo(stylesheet_directory); ?>/img/ridestep.png">
-      </div><!--end ridestep -->
-      <div id="call">
-        <img src="<?php bloginfo(stylesheet_directory); ?>/img/call.png">
-      </div><!--end ridestep -->
-      <div id="ridemiddle">
-        <div id="tranform">
-          <img src="<?php bloginfo(stylesheet_directory); ?>/img/tranform.png">
-        </div><!--end tranform -->
-        <div id="map">
-          <img src="<?php bloginfo(stylesheet_directory); ?>/img/map.png">
-        </div><!--end map -->
-      </div><!--end  ridemiddle -->
-      <div id="makesure">
-        <img src="<?php bloginfo(stylesheet_directory); ?>/img/makesure.png">
-      </div><!--end  makesure -->
+    <div id = "trip_middle_content" class="row">
+      <div id="trip_top">
+        <h3>My Trips - a free trip planner. Your travel plans on one page. </h3>
+      </div><!-- end trip_top -->
+      <div id="trip_desc">
+        <h4>Made a booking on Perie Look it up by confirmation number. </h4>
+        <p>Getting started with My Trips  – forward your booking confirmat</p>
+      </div><!-- end trip_desc -->
+      <div id="trip_content">
+        <div id="trip_content_left">
+          <div class="trip_list">
+            <img src="<?php bloginfo(stylesheet_directory); ?>/img/emailbg.png">
+            <div class="trip_desc">
+              <strong>Forward booking receipt emails</strong>
+            </div>
+          </div>
+          <div class="trip_list">
+            <img src="<?php bloginfo(stylesheet_directory); ?>/img/webpagebg.png">
+            <div class="trip_desc">
+              <strong>Your trip planner on a web page</strong>
+            </div>
+          </div>
+          <div class="trip_list">
+            <img src="<?php bloginfo(stylesheet_directory); ?>/img/appflightbg.png">
+            <div class="trip_desc">
+              <strong>Get flight status by email or SMS</strong>
+            </div>
+          </div>
+          <div class="trip_list">
+            <img src="<?php bloginfo(stylesheet_directory); ?>/img/appemailbg.png">
+            <div class="trip_desc">
+              <strong>Get flight status by email or SMS copy</strong>
+            </div>
+          </div>
+        </div><!-- end trip_content_left -->
+        <div id="trip_content_right">
+          <div id="into">
+            into
+          </div><!-- end into -->
+          <div id="signin">
+            signin
+          </div><!-- end into -->
+        </div><!-- end trip_content_right -->
+      </div><!-- end trip_content -->
     </div><!-- end trip_middle_content -->
 
     <div id = "footer" class="row">
