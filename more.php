@@ -8,15 +8,17 @@
   <div id="content" class="container_in">
     <div id = "explain" class="row">
           <h2>Book the best reviewed hotels in the Haiti</h2>
-          <p>We’ve hand selected hotels that are consistently rated the best</p>
+          <div class="desclimeline"></div>
+          <p>We’ve hand selected hotels that are consistently rated the best <img src="<?php bloginfo(stylesheet_directory); ?>/img/mifeng.png"></p>
     </div><!-- end explain -->
 
-    <div id = "middle_content" class="row">
+    <div id = "more_middle_content" class="row">
      <div id = "moreleft" class="">
           <div id="step">
             <img src="<?php bloginfo(stylesheet_directory); ?>/img/step.png">
           </div><!-- end step -->
           <h4>Manage Your Travel</h2>
+          <div class="morelinebg"></div>
           <div id="managetrv">
               <div class="morelist mobile">
                 <strong>Free Mobile App</strong>
@@ -40,6 +42,7 @@
               </div>
           </div><!-- end managetrv -->
           <h4>Find Travel</h2>
+          <div class="morelinebg"></div>
           <div id="managetrv">
             <div class="morelist vacations">
               <strong>Vacations</strong>
@@ -69,10 +72,7 @@
           </div><!-- end managetrv -->
      </div><!-- end moreleft -->
       <div id = "moreright" class="">
-          <img src="<?php bloginfo(stylesheet_directory); ?>/img/contact.png">
-          <div id="morecontact">
-              <h4> Please Give us your Feedback</h3>
-          </div><!-- end morecontact -->
+          <?php require_once('moreform.php') ?>
      </div><!-- end moreright -->
 
 
