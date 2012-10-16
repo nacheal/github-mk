@@ -13,7 +13,7 @@
 
     <div id = "check_middle_content" class="row">
       <div id="checkoutsearchform">
-        <img src="<?php bloginfo(stylesheet_directory); ?>/img/checkoutsearchform.png">
+        <?php get_search_form(); ?>
       </div><!-- end checkoutsearchform -->
       <div id="checkmiddle">
         <div id="checkleft">

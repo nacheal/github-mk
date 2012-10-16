@@ -5,4 +5,7 @@ register_nav_menus( array(
 	'second' => __( 'Second Navigation', 'Vbecomputing' ),
 ) );
 
+//add theme support feature thumb
+add_theme_support( 'post-thumbnails' );
+
 ?>
