@@ -1,16 +1,52 @@
 <?php
 /**
- * Single page
+ * Template Name: Fancy page
  */
 ?>
-<?php  get_header();  ?>
+<?php
+/**
+ * The Header for our theme.
+ *
+ * Displays all of the <head> section and everything up till <div id="main">
+ *
+ * @package WordPress
+ * @subpackage v
+ * @since Twenty Ten 1.0
+ */
+?>
 
-  <div id="content" class="container_in">
-    <div id = "explain" class="row">
-          <h2>Book the best reviewed hotels in the Haiti</h2>
-          <div class="desclimeline"></div>
-          <p>We’ve hand selected hotels that are consistently rated the best <img src="<?php bloginfo(stylesheet_directory); ?>/img/mifeng.png"></p>
-    </div><!-- end explain -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>vbecomputing</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="Michael Johndok">
+
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+
+<!-- Le styles -->
+<link href="<?php bloginfo(stylesheet_directory); ?>/css/bootstrap.css" rel="stylesheet">
+<link href="<?php bloginfo(stylesheet_directory); ?>/style.css" rel="stylesheet">
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- Le fav and touch icons -->
+<link rel="shortcut icon" href="../assets/ico/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php bloginfo(stylesheet_directory); ?>/img/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php bloginfo(’template_url’); ?>/img/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php bloginfo(stylesheet_directory); ?>/img/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="<?php bloginfo(stylesheet_directory); ?>/img/apple-touch-icon-57-precomposed.png">
+</head>
+
+<body>
+<div id = "body">
+  
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
     <div id = "single_middle_content" class="row">
@@ -87,7 +123,7 @@
                     $125 total
                   </td>
                   <td class="check book">
-                    <p ><a href="http://localhost/job/vbecomputing/?page_id=59">Book</a></p>
+                    <p >Book</p>
                   </td>
                 </tr>
                 <tr>
@@ -156,4 +192,5 @@
         </div><!-- end bottom -->
     </div><!-- end middle_content -->
 <?php endwhile; // end of the loop. ?>
-<?php get_footer(); ?>
+
+

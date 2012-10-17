@@ -12,6 +12,6 @@
     </div><!-- end explain -->
 
     <?php 
-    	get_template_part( 'loop', 'archive' );
+    	get_template_part( 'loop', 'category' );
     ?>
 <?php get_footer(); ?>

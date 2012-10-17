@@ -4,7 +4,7 @@
     <p class = "plan"> Plan your reservation with Company Name</p>
     <div class="left">
       <label for = "from">From</label>
-      <input type = "text" name = "from">
+      <input  id = "datepickerin" type = "text" name = "from" class = "input-medium" >
       <div class="inlineradio">
         <input  class = "radio" type = "radio"><span>Add nearby airports</span>
       </div><!-- end inlineradio -->
@@ -28,7 +28,7 @@
 
     <div class="left">
           <label for = "to">To</label>
-      <input type = "text" name = "to">
+      <input id = "datepickerout" class = "input-medium" type = "text" name = "to">
       <div class="inlineradio">
         <input class = "radio" type = "radio"><span>Add nearby airports</span>
       </div><!-- end inlineradio -->

@@ -20,6 +20,8 @@
 <meta name="description" content="">
 <meta name="author" content="Michael Johndok">
 
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+
 <!-- Le styles -->
 <link href="<?php bloginfo(stylesheet_directory); ?>/css/bootstrap.css" rel="stylesheet">
 <link href="<?php bloginfo(stylesheet_directory); ?>/style.css" rel="stylesheet">

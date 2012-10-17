@@ -47,11 +47,23 @@
           </div><!-- end why -->
         </div><!-- middle_content_left -->
         <div id = "middle_content_right" class="">
-          <div class="bridge">
-            <img src="<?php bloginfo(stylesheet_directory); ?>/img/bridge.png">
+          <div id = "mk-slidershow" class="bridge">
+            <div id="slideshow">
+              <img src="<?php bloginfo(stylesheet_directory); ?>/img/hotel/bridge3.jpg" alt=""  class="active"/>
+              <img src="<?php bloginfo(stylesheet_directory); ?>/img/hotel/bridge4.jpg" alt="" />
+            </div>
           </div><!-- end bridge -->
           <div class="diandian">
-            <img src="<?php bloginfo(stylesheet_directory); ?>/img/diandian.png">
+            <ul id = "diandiantong">
+              <li class="red"></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
           </div><!-- end diandian -->
           <div class="hipmunk ">
             <h3>What is Hipmunk ?</h3>
@@ -60,4 +72,5 @@
         </div><!-- middle_content_right -->
       </div>
     </div><!-- end middle_content -->
+
 <?php get_footer(); ?>

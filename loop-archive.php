@@ -1,3 +1,11 @@
+<?php
+  $args = array(
+'post_type' => 'hotel',
+);
+$query = new WP_Query( $args );
+
+?>
+
 <div id = "check_middle_content" class="row">
       <div id="checkoutsearchform">
         <?php get_search_form(); ?>
@@ -41,7 +49,7 @@
             <?php endif; ?>
           </div><!-- end checkloop-->
           <div id="pagenav">
-              <?php posts_nav_link(); ?>
+              <img src="<?php bloginfo(stylesheet_directory); ?>/img/pagenav.png">
           </div>
         </div><!-- end checkright -->
         <div id="checkright">

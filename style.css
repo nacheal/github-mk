@@ -253,6 +253,7 @@ border-radius:10px;
   position: absolute;
   left:550px;
   top:370px;
+  z-index: 12;
 }
 
 
@@ -263,17 +264,40 @@ padding-left:60px;
 }
 
 .bridge {
-  width:515px;
-  height:347px;
+  width:511px;
+  height:343px;
   margin-top:20px;
   padding-left:15px;
+  overflow: hidden;
+
+  -moz-border-radius: 15px; 
+    -webkit-border-radius: 15px;
+    border-radius:15px;
 }
 
 .diandian{
+  text-align: center;
   width:515px;
   height:78px;
   margin-top:20px;
 }
+
+.diandian ul{
+  width: 160px;
+  margin-left:220px;
+}
+
+.diandian ul li{
+  float:left;
+  height: 18px;
+  width: 20px;
+  color: #e6e6e6;
+  font-size: 40px;
+}
+
+.diandian ul li.red{
+  color: #fb5e3d;
+  }
 
 .hipmunk{
   width:515px;
@@ -751,8 +775,8 @@ border-radius:15px;
   background: url(./img/limeline.png);
 }
 #checkoutsearchform{
-  margin-top:20px;
-  margin-left:20px;
+  margin-top:40px;
+  margin-left:40px;
 }
 #sort{
   margin-top:20px;
@@ -764,6 +788,13 @@ border-radius:15px;
   width: 700px;
   height: 140px;
 }
+
+.checklist:hover{
+ border: 1px solid #f4d8c9;
+  -moz-border-radius: 5px; 
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  }
 
 .checklist .thumbimg{
   height:110px;
@@ -844,9 +875,42 @@ border-radius:15px;
 }
 
 #pagenav{
-  margin-left:200px;
+  /*margin-left:200px;*/
+  color: #ce5815;
+}
+
+#pagenav a{
+  color: #ce5815;
+}
+
+#datepickerin ,#datepickerout{
+  background-image: url(./img/datapick.png);
+  background-repeat: no-repeat;
+  background-position: 130px;
+
 }
 /*******end checkout *****/
+
+/*****page******/
+
+#page_middle_content{
+  width:985px;
+  min-height: 400px;
+  margin:0 auto;
+  margin-top: 30px;
+  /*height: 500px;*/
+  overflow: hidden;
+
+  padding: 30px;
+
+  background-color: #fff;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  border-radius:10px;
+  border:1px solid ddd;
+  -webkit-box-shadow:0 0 10px #d1d1d1;
+  -moz-box-shadow:0 0 10px #d1d1d1;
+}
 
 /*****single***/
 #single_middle_content{
@@ -1102,3 +1166,32 @@ border-radius:15px;
  margin-left: 20px;
 }
 /*****end single **/
+
+/*****slidershow ****/
+ #slideshow {
+      position:relative;
+      height:343px;
+          
+      }
+
+      #slideshow IMG {
+      position:absolute;
+      top:0;
+      left:0;
+      z-index:8;
+
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px;
+    border-radius:10px;
+
+      }
+
+      #slideshow IMG.active {
+      z-index:10;
+      }
+
+      #slideshow IMG.last-active {
+      z-index:9;
+      }
+
+/*****end slidershow ****/
